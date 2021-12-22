@@ -1,0 +1,44 @@
+/* to bring the form in the middle */
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* to make the form horizontally aligned */
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+/* h1 styling */
+.login_form > h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+/* input styling */
+.login_form > input {
+    min-width: 280px;
+    padding: 10px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgb(46, 2, 46);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2px;
+    font-size: 10px;
+}
+
+.submit_btn {
+    padding: 12px 30px;
+    margin-top: 10px;
+    background: rgb(179, 120, 179);
+    border: none;
+    color: rgb(20, 17, 20);
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+}
